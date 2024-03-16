@@ -71,8 +71,8 @@ export default [
     id: 'gif_player',
     label: 'Hover over a GIF to play it',
     type: 'bool',
-    value: 1,
-    presets: [1, 1, 1],
+    value: 0,
+    presets: [1, 0, 0],
     description:
       'This option stops looping gifs animation. The continuous animation of a gif forces browsers to refresh part of what it displays on the screen, it consumes energy. If possible only the 1st image is preloaded, the full animation will load and play the rollover (Giphy).',
   },
@@ -80,7 +80,7 @@ export default [
     id: 'block_avatar',
     label: 'Block avatar images',
     type: 'bool',
-    value: 1,
+    value: 0,
     presets: [1, 0, 0],
     description:
       'Avatar images (like Gravatar, Twitter, Reddit...) are small, but there are often many, and they are not always necessary. When it is possible to identify them, they are blocked and therefore not loaded.',
@@ -122,7 +122,7 @@ export default [
     label: 'Block social media embeds',
     type: 'bool',
     value: 1,
-    presets: [1, 1, 1],
+    presets: [1, 1, 0],
     description:
       'When a content from social media (Facebook, Instagram, Twitter, etc.) is shared on a website, many scripts (often tracking) are loaded, just to display a text or an image. These scripts are blocked, the extension automatically applies a layout imitating the original content.<br>Unnecessary features like buttons Facebook Like or Share are blocked.',
   },
@@ -130,8 +130,8 @@ export default [
     id: 'marquee_animation',
     label: 'Disable marquee animation',
     type: 'bool',
-    value: 1,
-    presets: [1, 1, 1],
+    value: 0,
+    presets: [1, 0, 0],
     description: 'Disable old marquee animations. Animations may cause render and reflow',
   },
   {
@@ -139,7 +139,7 @@ export default [
     label: 'Block Fonts',
     description: 'Block web fonts loaded for an @font-face CSS rule. Some icon webfont like fontawesome are whitelisted.',
     type: 'bool',
-    presets: [1, 1, 0],
+    presets: [1, 0, 0],
     value: 0,
   },
   {
