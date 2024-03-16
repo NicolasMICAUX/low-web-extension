@@ -1,8 +1,8 @@
-# low—web extension (v0.0.13)
+# Lowr web extension (v0.0.13)
 
-Reduce energy consumption and carbon footprint of your internet browsing.
+Reduces energy consumption and carbon footprint of your internet browsing.
 
-- Chromium : [https://chrome.google.com/webstore/detail/low-web-extension/jllfpicflcigpegdmejghjhaehdiabfj](https://chrome.google.com/webstore/detail/low-web-extension/jllfpicflcigpegdmejghjhaehdiabfj) 
+- Chrome / Chromium : [https://chrome.google.com/webstore/detail/low-web-extension/jllfpicflcigpegdmejghjhaehdiabfj](https://chrome.google.com/webstore/detail/low-web-extension/jllfpicflcigpegdmejghjhaehdiabfj) 
 - Firefox : [https://addons.mozilla.org/fr/firefox/addon/low-web-extension/](https://addons.mozilla.org/fr/firefox/addon/low-web-extension/)
 
 
@@ -233,9 +233,6 @@ Some CSS properties can affect rendering performance of a page (and therefore in
 Pages for tests : 
 https://lowwebtech.github.io/low-web-extension/
 
-## Contribute
-
-
 ## Licence
-
+Based on code from https://github.com/lowwebtech/low-web-extension.  
 Code released under the [GNU GPLv3 License](LICENSE).
